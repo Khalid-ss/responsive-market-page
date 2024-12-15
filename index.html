@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Website-1</title>
+    <link rel="stylesheet" href="css/Style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=DM+Serif+Display&family=Dancing+Script&family=Merriweather:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ============================== Header ============================== -->
+    <div class="header">
+      <img
+        src="images/icon.png"
+        alt="logo img"
+        draggable="false"
+        width="80px"
+        height="80px"
+      />
+      <ul class="header-list" style="float: right">
+        <li><a href="#" class="list-hover">Home</a></li>
+        <li><a href="#" class="list-hover">Category</a></li>
+        <li><a href="#" class="list-hover">Products</a></li>
+        <li><a href="#" class="list-hover">About us</a></li>
+        <li><a href="#" class="list-hover">Blog</a></li>
+        <li><a href="#" class="list-hover">Contact us</a></li>
+      </ul>
+    </div>
+    <!-- ============================== Home ============================== -->
+    <div class="home">
+      <div class="overlay">
+        <div class="home-container">
+          <h1>Welcome to tech-store</h1>
+          <p>
+            Find the best electronics products with guaranteed quality,
+            excellent durability and good performance.
+          </p>
+          <button class="hover">Explore</button>
+          <button class="btn2 hover">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <!-- ============================== Category ============================== -->
+    <div class="container padding">
+      <div class="section-header">
+        <h2 class="section-title">Category</h2>
+        <div class="section-line blue"></div>
+      </div>
+      <div class="content">
+        <div class="category-item">
+          <i class="fa-solid fa-mobile-screen-button Category-icon"></i>
+          <h2 class="subtitle">Mobiles</h2>
+          <p>Find a variety of mobiles you will find the newest mobiles.</p>
+          <a href="#" class="RM">Read More</a>
+        </div>
+        <div class="category-item mid">
+          <i class="fa-solid fa-computer Category-icon"></i>
+          <h2 class="subtitle">Computers</h2>
+          <p>Computer bundles and a wide variety of computer parts.</p>
+          <a href="#" class="RM">Read More</a>
+        </div>
+        <div class="category-item">
+          <i class="fa-solid fa-gamepad Category-icon"></i>
+          <h2 class="subtitle">Gaming</h2>
+          <p>Gaming consoles, products and services.</p>
+          <a href="#" class="RM">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- ============================== Featured ============================== -->
+    <div class="container padding container-color">
+      <div class="section-header">
+        <h2 class="section-title">Featured</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="f-content">
+        <div class="f-item">
+          <div class="f-overlay">
+            <div class="f-details">
+              <p>Accessories</p>
+              <h2>Samsung airpods</h2>
+              <a onclick="incrementText()"
+                ><i class="fa-solid fa-cart-plus"></i
+              ></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+          <img
+            src="images/airpods.png"
+            alt="airpods"
+            width="350"
+            height="350"
+            draggable="false"
+          />
+        </div>
+        <div class="f-item mid">
+          <div class="f-overlay">
+            <div class="f-details">
+              <p>Mobiles</p>
+              <h2>Iphone 15 pro max</h2>
+              <a onclick="incrementText()"
+                ><i class="fa-solid fa-cart-plus"></i
+              ></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+          <img
+            src="images/iphone-15.png"
+            alt="iphone-15"
+            width="350"
+            height="350"
+            draggable="false"
+          />
+        </div>
+        <div class="f-item">
+          <div class="f-overlay">
+            <div class="f-details">
+              <p>Accessories</p>
+              <h2>Samsung Watch 5</h2>
+              <a onclick="incrementText()"
+                ><i class="fa-solid fa-cart-plus"></i
+              ></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+          <img
+            src="images/watch.png"
+            alt="watch"
+            width="350"
+            height="350"
+            draggable="false"
+          />
+        </div>
+        <div class="f-item">
+          <div class="f-overlay">
+            <div class="f-details">
+              <p>Mobiles</p>
+              <h2>Samsung galaxy s23</h2>
+              <a onclick="incrementText()"
+                ><i class="fa-solid fa-cart-plus"></i
+              ></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+          <img
+            src="images/Galaxy-s23 Ultra.png"
+            alt="Samsung-galaxy s23 Ultra"
+            width="350"
+            height="350"
+            draggable="false"
+          />
+        </div>
+        <div class="f-item mid">
+          <div class="f-overlay">
+            <div class="f-details">
+              <p>Laptops</p>
+              <h2>lenovo-flex</h2>
+              <a onclick="incrementText()"
+                ><i class="fa-solid fa-cart-plus"></i
+              ></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+          <img
+            src="images/lenovo-flex.png"
+            alt="lenovo-flex"
+            width="350"
+            height="350"
+            draggable="false"
+          />
+        </div>
+        <div class="f-item">
+          <div class="f-overlay">
+            <div class="f-details">
+              <p>TV's</p>
+              <h2>Samsung Crystal 50 inch UHD</h2>
+              <a onclick="incrementText()"
+                ><i class="fa-solid fa-cart-plus"></i
+              ></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+          <img
+            src="images/TV.png"
+            alt="TV"
+            width="350"
+            height="350"
+            draggable="false"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ============================== What We Offer ============================== -->
+    <div class="container padding">
+      <div class="section-header">
+        <h2 class="section-title">What We Offer</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="content">
+        <div class="o-item">
+          <i class="fa-solid fa-gamepad"></i>
+          <h2>Gaming services</h2>
+          <span
+            >Everything about gaming including products, consoles and services :
+            playstation plus.</span
+          >
+        </div>
+        <div class="o-item mid">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h2>Mobiles</h2>
+          <span
+            >Find a wide variety of mobiles you will find the newest mobile
+            phones.</span
+          >
+        </div>
+        <div class="o-item">
+          <i class="fa-solid fa-computer"></i>
+          <h2>Computers & laptops</h2>
+          <span
+            >low-end to high-end Computer bundles, Laptops and a wide variety of
+            computer parts.</span
+          >
+        </div>
+        <div class="o-item">
+          <i class="fa-solid fa-tv"></i>
+          <h2>TV's</h2>
+          <span
+            >we have big collection of tv's and a variety of companies to choose
+            from.</span
+          >
+        </div>
+        <div class="o-item mid">
+          <i class="fa-regular fa-keyboard"></i>
+          <h2>Accessories</h2>
+          <span
+            >we have tech-accessories : smart watches, airpods and
+            chargers.</span
+          >
+        </div>
+        <div class="o-item">
+          <i class="fa-solid fa-plug"></i>
+          <h2>Electronics</h2>
+          <span
+            >Home-Appliances and Electronic devices : Gas Cookers, Washing
+            Machines and Refrigerators</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- ============================== Why Choose Us ? ============================== -->
+    <div class="container padding container-color">
+      <div class="why-content">
+        <div class="why-div1">
+          <div class="why-header">
+            <h2 class="why-title">Why Choose Us ?</h2>
+            <div class="why-line"></div>
+          </div>
+          <p>
+            besides our customers positive reviews, we have important points to
+            mention that will affect your choice to deal with us.
+          </p>
+          <ul class="why-list">
+            <li>
+              <i class="fa-solid fa-shield"></i
+              ><span
+                >This website and any transaction will be done in it is
+                protected.
+              </span>
+            </li>
+            <li>
+              <i class="fa-solid fa-stopwatch"></i
+              ><span>You will get your product as fast as possible.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-credit-card"></i
+              ><span>Easy payment methods and installments.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-screwdriver-wrench"></i
+              ><span>3 Months warranty on any product.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-headset"></i><span>24/7 support.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="why-div2">
+          <img
+            src="images/Untitled-1.png"
+            alt="why-img"
+            width="450"
+            height="450"
+            style="margin-left: 180px"
+            draggable="false"
+          />
+        </div>
+        <div class="why-dots">
+          <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ============================== Stats ============================== -->
+    <div class="container padding container-background">
+      <div class="content">
+        <div class="stats-item">
+          <i class="fa-solid fa-users"></i>
+          <p>35K</p>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="stats-item">
+          <i class="fa-solid fa-envelope"></i>
+          <p>27K</p>
+          Positive reviews
+        </div>
+        <div class="stats-item">
+          <i class="fa-solid fa-truck"></i>
+          <p>40K</p>
+          <p>Shipment</p>
+        </div>
+        <div class="stats-item">
+          <i class="fa-solid fa-shop"></i>
+          <p>18</p>
+          <p>Branch</p>
+        </div>
+      </div>
+    </div>
+    <!-- ==============================  Cart  ============================== -->
+    <!-- <button class="cart-btn"><i><i class="fa-solid fa-cart-shopping"></i></i></button> -->
+    <div class="cart-btn" onclick="openNav()">
+      <i class="fa-solid fa-cart-shopping clickable"></i>
+      <p id="count">0</p>
+    </div>
+    <!-- كود الكارت بتاع ال side -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+        <div id="cartItem">Your cart is empty</div>
+      </div>
+    </div>
+    <!-- ============================== Footer ============================== -->
+    <div class="container padding footer-color">
+      <div class="footer-content">
+        <div class="footer-div">
+          <div class="footer-img">
+            <img src="images/icon.png" alt="footer-icon" draggable="false" />
+          </div>
+          <div class="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <p>COPYRIGHT &copy; 2023 . ALL RIGHT RESERVED TO KAREM MOHAMED.</p>
+        </div>
+      </div>
+    </div>
+    <!-- ===================================================================== -->
+    <script src="Js/main.js"></script>
+  </body>
+</html>
